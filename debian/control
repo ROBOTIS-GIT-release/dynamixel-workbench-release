@@ -1,0 +1,13 @@
+Source: ros-kinetic-dynamixel-workbench-toolbox
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamixel-sdk, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/dynamixel_workbench_toolbox
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-dynamixel-workbench-toolbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamixel-sdk, ros-kinetic-roscpp
+Description: This package is composed of 'dynamixel_item', 'dynamixel_tool', 'dynamixel_driver' and 'dynamixel_workbench' class.
+ The 'dynamixel_item' is saved as control table item and information of Dynamixels. The 'dynamixel_tool' class loads its by model number of Dynamixels. The 'dynamixel_driver' class includes wraped function used in DYNAMIXEL SDK. The 'dynamixel_workbench' class make simple to use Dynamixels
