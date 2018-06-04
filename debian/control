@@ -1,0 +1,13 @@
+Source: ros-kinetic-dynamixel-workbench
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/dynamixel_workbench
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-dynamixel-workbench
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamixel-workbench-controllers, ros-kinetic-dynamixel-workbench-operators, ros-kinetic-dynamixel-workbench-single-manager, ros-kinetic-dynamixel-workbench-single-manager-gui, ros-kinetic-dynamixel-workbench-toolbox
+Description: Dynamixel-Workbench is dynamixel solution for ROS.
+ This metapackage allows you to easily change the ID, baudrate and operating mode of the Dynamixel. Furthermore, it supports various controllers based on operating mode and Dynamixel SDK. These controllers are commanded by operators.
