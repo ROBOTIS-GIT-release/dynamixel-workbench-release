@@ -1,0 +1,12 @@
+Source: ros-melodic-dynamixel-workbench-single-manager-gui
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), qt5-qmake, qtbase5-dev, ros-melodic-catkin, ros-melodic-dynamixel-workbench-msgs, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-roscpp
+Homepage: http://wiki.ros.org/dynamixel_workbench_single_manager_gui
+Standards-Version: 3.9.2
+
+Package: ros-melodic-dynamixel-workbench-single-manager-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5core5a, libqt5gui5, qt5-qmake, qtbase5-dev, ros-melodic-dynamixel-workbench-msgs, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-roscpp
+Description: It provides a grapic user interface to check the status of Dynamixel and control it before using Dynamixel
