@@ -1,0 +1,12 @@
+Source: ros-kinetic-dynamixel-workbench-operators
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-dynamixel-workbench-msgs, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/dynamixel_workbench_operators
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-dynamixel-workbench-operators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-dynamixel-workbench-msgs, ros-kinetic-roscpp
+Description: This package contains nodes that control the Dynamixel by communicating with the server registered in the 'dynamixel_workbench_controllers' package
