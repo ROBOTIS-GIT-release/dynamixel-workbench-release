@@ -1,0 +1,173 @@
+ros-kinetic-dynamixel-workbench-single-manager-gui (1.0.0-0xenial) xenial; urgency=high
+
+  * upgraded read time #162
+  * added Dynamixel PRO information #162
+  * added mutex for log thread
+  * added timer for data log
+  * added PROext header
+  * updated dxl ext function
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 19 Jul 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.3.1-0xenial) xenial; urgency=high
+
+  * updated Qt5 and delete Qt4 config
+  * deleted rqt_plugin header
+  * merged pull request #154 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/154> #153 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/153>
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Sun, 03 Jun 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.3.0-0xenial) xenial; urgency=high
+
+  * changed compile options for qt5
+  * merged pull request #152 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/152> #151 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/151> #149 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/149> #132 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/132>
+  * Contributors: Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 31 May 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.2.4-0xenial) xenial; urgency=high
+
+  * changed package.xml to format v2
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 19 Mar 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.2.3-0xenial) xenial; urgency=high
+
+  * modified dialog rotate direction
+  * added dynamixel_sdk lib
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Thu, 08 Mar 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.2.2-0xenial) xenial; urgency=high
+
+  * modified the CI configurations (#117 <https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/117>)
+  * modified the CMakeLists.txt to fix wrong path (ros/rosdistro#17019 <https://github.com/ros/rosdistro/pull/17019>)
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 27 Feb 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.2.1-0xenial) xenial; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Wed, 21 Feb 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.2.0-0xenial) xenial; urgency=high
+
+  * added baudrate sorting
+  * added baud rate item and operating mode item
+  * added linux build and example
+  * modified dynamixel workbench lib
+  * modified make file
+  * modified function
+  * deleted build
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Sun, 18 Feb 2018 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.9-0xenial) xenial; urgency=high
+
+  * deleted libqt4
+  * modified dependency
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Thu, 02 Nov 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.8-0xenial) xenial; urgency=high
+
+  * None
+
+ -- Pyo <pyo@robotis.com>  Tue, 31 Oct 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.7-0xenial) xenial; urgency=high
+
+  * added rospy for the issue https://github.com/ROBOTIS-GIT/dynamixel-workbench/issues/77
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Sun, 29 Oct 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.6-0xenial) xenial; urgency=high
+
+  * bug fixed
+  * updated error msg
+  * updated get model path
+  * updated Dynamixel PRO
+  * updated Dynamixel XL, XM and XH
+  * updated annotation
+  * updated multi driver
+  * updated address name
+  * updated msg name
+  * modified launch files
+  * modified variable
+  * modified file location
+  * added sync read
+  * added multi read function
+  * added multi_driver
+  * changed BSD license to Apache 2.0 license
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Tue, 08 Aug 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.5-0xenial) xenial; urgency=high
+
+  * modified the cmake of toolbox
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Mon, 22 May 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.4-0xenial) xenial; urgency=high
+
+  * added dynamixel new model: XL430_W250
+  * added dynamixel new model: XH
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Sun, 23 Apr 2017 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.3-0xenial) xenial; urgency=high
+
+  * add drive_mode in XM series
+  * update single manager and GUI
+  * modified msgs files
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Mon, 28 Nov 2016 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.2-0xenial) xenial; urgency=high
+
+  * add comment in msgs file
+  * add stop sign in velocity controller
+  * modify beta test feedback
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Sun, 30 Oct 2016 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.1-0xenial) xenial; urgency=high
+
+  * modified single manager and gui
+  * modified factory reset
+  * modified baudrate, factory reset, reboot and velocity controller
+  * Revert "add baudrate combobox and modify velocity controller"
+    This reverts commit f4f83761d687c40660a2c864aa4fcbebe1df4ea4.
+  * add baudrate combobox and modify velocity controller
+  * Contributors: Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Thu, 20 Oct 2016 15:00:00 -0000
+
+ros-kinetic-dynamixel-workbench-single-manager-gui (0.1.0-0xenial) xenial; urgency=high
+
+  * modified the package information for release
+  * edit cmake and xml files
+  * edit GUI initialization
+  * edit launch file
+  * add multiport controller and torque controller
+  * add position, velocity controller and pan-tilt, wheel tutorials
+  * add gui package and modify position controller
+  * Contributors: Darby Lim, pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 22 Sep 2016 15:00:00 -0000
+
+
