@@ -1,3 +1,32 @@
+## dynamixel-workbench (melodic) - 1.0.0-0
+
+The packages in the `dynamixel-workbench` repository were released into the `melodic` distro by running `/usr/bin/bloom-release dynamixel-workbench -t melodic -r melodic` on `Fri, 20 Jul 2018 03:00:19 -0000`
+
+These packages were released:
+- `dynamixel_workbench`
+- `dynamixel_workbench_controllers`
+- `dynamixel_workbench_operators`
+- `dynamixel_workbench_single_manager`
+- `dynamixel_workbench_single_manager_gui`
+- `dynamixel_workbench_toolbox`
+
+Version of package(s) in repository `dynamixel-workbench`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+- release repository: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-release.git
+- rosdistro version: `0.3.1-0`
+- old version: `0.3.1-0`
+- new version: `1.0.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## dynamixel-workbench (kinetic) - 1.0.0-0
 
 The packages in the `dynamixel-workbench` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release dynamixel-workbench -t kinetic -r kinetic` on `Fri, 20 Jul 2018 02:34:43 -0000`
