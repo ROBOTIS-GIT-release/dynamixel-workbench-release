@@ -1,0 +1,12 @@
+Source: ros-melodic-dynamixel-workbench-controllers
+Section: misc
+Priority: extra
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libyaml-cpp-dev, ros-melodic-catkin, ros-melodic-cmake-modules, ros-melodic-dynamixel-workbench-msgs, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-trajectory-msgs
+Homepage: http://wiki.ros.org/dynamixel_workbench_controllers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-dynamixel-workbench-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libyaml-cpp-dev, ros-melodic-cmake-modules, ros-melodic-dynamixel-workbench-msgs, ros-melodic-dynamixel-workbench-toolbox, ros-melodic-geometry-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-trajectory-msgs
+Description: This package contains examples of applying the 'dynamixel_workbench_toolbox' library developed on the basis of dynamixel_sdk to various operating modes of Dynamixel.
