@@ -1,3 +1,30 @@
+## dynamixel-workbench (kinetic) - 2.2.0-0
+
+The packages in the `dynamixel-workbench` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release dynamixel-workbench -t kinetic -r kinetic --edit` on `Sun, 27 Sep 2020 08:01:26 -0000`
+
+These packages were released:
+- `dynamixel_workbench`
+- `dynamixel_workbench_controllers`
+- `dynamixel_workbench_operators`
+- `dynamixel_workbench_toolbox`
+
+Version of package(s) in repository `dynamixel-workbench`:
+
+- upstream repository: https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+- release repository: https://github.com/ROBOTIS-GIT-release/dynamixel-workbench-release.git
+- rosdistro version: `2.0.0-0`
+- old version: `2.0.0-0`
+- new version: `2.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.1`
+- catkin_pkg version: `0.3.9`
+- rosdep version: `0.11.8`
+- rosdistro version: `0.6.6`
+- vcstools version: `0.1.39`
+
+
 ## dynamixel-workbench (kinetic) - 2.0.0-0
 
 The packages in the `dynamixel-workbench` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release dynamixel-workbench -t kinetic -r kinetic` on `Fri, 08 Feb 2019 04:12:24 -0000`
