@@ -1,0 +1,13 @@
+Source: ros-noetic-dynamixel-workbench
+Section: misc
+Priority: optional
+Maintainer: Will Son <willson@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/dynamixel_workbench
+Standards-Version: 3.9.2
+
+Package: ros-noetic-dynamixel-workbench
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamixel-workbench-controllers, ros-noetic-dynamixel-workbench-operators, ros-noetic-dynamixel-workbench-toolbox
+Description: Dynamixel-Workbench is dynamixel solution for ROS.
+ This metapackage allows you to easily change the ID, baudrate and operating mode of the Dynamixel. Furthermore, it supports various controllers based on operating mode and Dynamixel SDK. These controllers are commanded by operators.
